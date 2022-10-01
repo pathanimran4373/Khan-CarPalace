@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+#navbar {
+    background-image: url(./img/car_shop.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(202 30 30);
+    font-weight: 400;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.carousel-caption {
+    font-size: larger;
+    color: white !important;
+    font-weight: 900;
+}
+
+.text-white {
+    color: red !important;
+}
+
+.link-light {
+    color: rgb(58 117 176);
+}
+#icon i:hover{
+    color: white;
+}
