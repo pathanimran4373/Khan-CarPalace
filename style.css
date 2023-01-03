@@ -1,24 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 00px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
+    outline: none;
     text-transform: capitalize;
+    text-decoration: none !important;
+    list-style: none !important;
+   
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;  
+    
 }
 
-#navbar {
+
+/* #navbar { 
     background-image: url(./img/car_shop.jpg);
     min-height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
+
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(202 30 30);
     font-weight: 400;
     z-index: 1000;
-}
+    
+}*/
 
 .navbar-brand {
     font-style: italic;
@@ -26,14 +39,10 @@
     font-size: 25px;
 }
 
-.carousel-caption {
-    font-size: larger;
-    color: white !important;
-    font-weight: 900;
-}
+
 
 .text-white {
-    color: red !important;
+    color:yellowgreen!important;
 }
 
 .link-light {
@@ -42,3 +51,115 @@
 #icon i:hover{
     color: white;
 }
+#services{
+min-height: 80vh;
+}
+#services h1 i{
+    color: yellow;
+}
+#about{
+    
+    background: linear-gradient(rgba(17,36,90,0.8), rgba(17,36,90,0.8)), url(./img/car_shop.jpg);
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#about h4{
+    font-weight: 500;
+    color: white;
+}
+#about h2, h6,h4,span{
+color: white;
+}
+.d-flex i{
+    color: yellow;
+}
+/* .d-flex i{
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+} */
+.col-md-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+}
+.col-md-3 h1{
+    color: yellow;
+}
+.stars{
+    padding:1rem 0;
+}
+
+.stars i{
+    font-size:20px;
+    color:yellow
+}
+#icon i{
+font-size: 40px;
+font-weight: 600;
+color: darkgreen;
+}
+#icon i{
+    padding-left: 5px;
+}
+.vehicles{
+    position: relative;
+    right: 20px;
+}
+
+@media (max-width: 480px) {
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+       
+        
+    }
+    .aboutbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .aboutbox span{
+        margin: 2px 10px;
+    }
+
+
+
+
+
+
+
+
+    /* media queris */
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    
+     .d-flex i{
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+} 
+.text-muted{
+    margin-left: 5px;
+    position: relative;
+    left: 20px;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .d-flex i{
+        position: relative;
+        right: 30px;
+    } 
+}
+  
