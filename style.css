@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 00px;
+    margin: 0;
+    padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
     outline: none;
@@ -12,20 +12,12 @@
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;  
-    
-}
-
-
-
-
+    }
 .navbar-brand {
     font-style: italic;
     font-weight: 500;
     font-size: 25px;
 }
-
-
-
 .text-white {
     color:yellowgreen!important;
 }
@@ -72,6 +64,10 @@ color: white;
 .col-md-3 h1{
     color: yellow;
 }
+.col-md-3 h5{
+    color: blue;
+}
+
 .stars{
     padding:1rem 0;
 }
@@ -93,16 +89,14 @@ color: darkgreen;
     right: 20px;
 }
 
+/* media queris */
 @media (max-width: 480px) {
     .d-flex{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
-       
-        
-    }
+        }
     .aboutbox{
         display: flex;
         flex-direction: column;
@@ -113,15 +107,6 @@ color: darkgreen;
     .aboutbox span{
         margin: 2px 10px;
     }
-
-
-
-
-
-
-
-
-    /* media queris */
 }
 @media (min-width: 768px) and (max-width: 1024px){
     
